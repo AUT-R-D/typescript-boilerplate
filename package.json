@@ -4,8 +4,7 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "start": "nodemon index.ts",
-    "start2": "ts-node src/index.ts",
+    "start": "ts-node src/index.ts",
     "build": "tsc"
   },
   "keywords": [],
@@ -14,8 +13,5 @@
   "devDependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
-  },
-  "dependencies": {
-    "nodemon": "^2.0.21"
   }
 }
